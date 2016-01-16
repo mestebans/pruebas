@@ -1,0 +1,414 @@
+/*
+Theme Name: Manuel Esteban FalconMasters
+Theme URI: http://neoarcangel.zz.mu
+Author: Manuel Esteban
+Author URI: http://neoarcangel.zz.mu
+Description: Sitio Web creado por el tutorial de FalconMasters
+Version: 1.0
+
+Tags: Falcon, Master, Falconmaster, Manuel, Esteban, Manuel Esteban, wordpress, codex, desarrollo
+*/
+
+
+
+/*------------------ESTILOS GENERALES -------------------*/
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,300,700');
+
+*
+{
+	margin:0px;
+	padding: 0px
+}
+
+body
+{
+	background:#191919;
+	font-size: 12pt;
+	font-family:'Raleway',verdana, arial, sans-serif;
+	
+	
+}
+
+header,#contenedor,footer
+{
+	width:85%;
+	max-width: 960px;
+	margin:0px auto;
+	/*background:white;	*/
+
+}
+
+a
+{
+	color:#bf2222;
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+
+/*------------------HEADER -------------------*/
+
+header
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	width: 85%;
+
+}
+header #logo
+{
+	width: 40%;
+	float: left;
+}
+header #logo h1
+{
+	font-size: 4em;
+	font-weight: lighter;
+	text-align: left;
+	color:white;
+	font-family:'Raleway',verdana, arial, sans-serif;
+}
+header #logo span
+{
+	font-size: 0.8em;
+	text-align: center;
+	display:block;
+	color:white;
+	position: relative;
+	right: 20px;
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+header nav
+{
+	width: 58%;
+	padding:10px 0px;
+	margin-top: 30px;
+	float: right;
+}
+
+header nav ul 
+{
+	
+	float: right;
+}
+header nav ul li
+{
+	list-style-type: none;
+	display:inline-block;
+	margin-left:12px;
+	margin-bottom: 10px;
+
+}
+header nav ul li a
+{
+	font-size: 1.3em;
+	color: white;
+}		
+header nav ul li a:hover
+{
+	
+	color:#bf2222;
+	text-decoration: none;
+}
+
+/*------------------SLIDESHOW -------------------*/
+
+#contenedor
+{
+	overflow: hidden;
+
+}
+
+#contenedor #noslide #slideshow
+{
+	width:100%;
+	float:left;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+#contenedor #noslide #slideshow .thumb
+{
+	width:48%;
+	float:left;
+	margin-right: 2%
+}
+#contenedor #noslide #slideshow article
+{
+	font-family: Josefin Sans;
+	width:48%;
+	text-align: justify;
+	float: left;
+	color:white;
+
+
+	
+	
+}
+#contenedor #noslide #slideshow article h2
+{
+	font-family: 'Raleway', verdana, arial;
+	font-size: 2em;
+	font-weight: lighter;
+	text-align: left;
+	
+}
+#contenedor #noslide #slideshow article h2 a
+{
+	color:white;
+}
+#contenedor #noslide #slideshow article h2 a:hover
+{
+	color:#bf2222;
+	text-decoration: none;
+}
+#contenedor #noslide #slideshow article .fecha
+{
+	font-size: 0.8em;
+	font-weight: 600px;
+	margin-bottom: 10px;
+	color:#777777;
+	
+	
+}
+#contenedor #noslide #slideshow article p.extracto
+{/*limita el maximo de texto en un parrafo*/
+	max-height:230px;
+	overflow: hidden;
+}
+#contenedor #noslide #slideshow .slidesjs-pagination li
+{/*limita el maximo de texto en un parrafo*/
+	margin-bottom: 15px;
+}
+#contenedor #noslide #slideshow .slidesjs-pagination li
+{/*limita el maximo de texto en un parrafo*/
+	display:inline-block;
+	background: white;
+	margin-right: 10px;
+	width:20px;
+	height:20px;
+}
+#contenedor #noslide #slideshow .slidesjs-pagination li a
+{/*limita el maximo de texto en un parrafo*/
+	width:20px;
+	height:20px;
+	display:block;
+	font-size: 0px;
+}
+#contenedor #noslide #slideshow 
+.slidesjs-pagination li .active
+{/*limita el maximo de texto en un parrafo*/
+	background: #333333;
+}
+/*------------------CONTENEDOR -------------------*/
+
+#contenedor section#listaArticulos
+{
+
+	clear: both;
+	width:75%;
+	float: left;
+
+}
+#contenedor section#listaArticulos article
+{
+
+	font-family: Josefin Sans, verdana, arial;
+	margin-bottom: 40px;
+	margin-right: 4%;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #333333;
+	
+	width:100%;
+	overflow: hidden;
+
+}
+#contenedor section#listaArticulos article .thumb
+{
+
+	float: left;
+	width:35%;
+	margin-right: 4%;
+	margin-bottom: 2%;
+	
+
+}
+#contenedor section#listaArticulos article h2
+{
+	font-family: 'Raleway', verdana, arial;
+	font-weight: lighter;
+	font-size: 1.5em;
+}
+#contenedor section#listaArticulos article h2 a
+{
+		color:white;
+}
+#contenedor section#listaArticulos article h2 a:hover
+{
+	
+	color:#bf2222;
+	text-decoration: none;
+}
+#contenedor section#listaArticulos article .fecha
+{
+	font-size:0.8em;
+	color:#777;
+}
+#contenedor section#listaArticulos article .extracto
+{
+	text-align: justify;
+	padding:15px;
+	color:white;
+}
+#contenedor section .pagination
+{
+	width:100%;
+}
+#contenedor section .pagination p
+{
+	font-size:1.5em;
+	color:white;
+	text-align: center;
+}
+#contenedor section .pagination p a
+{
+	
+	color:#bf2222;
+	
+	margin-left: 40px;
+	display:inline-block;
+	
+}
+#contenedor section .pagination p a:hover
+{
+	color:white;
+	text-decoration:none;
+}
+/*------------------ASIDE -------------------*/
+
+#contenedor aside
+{
+	width:24%;
+	float: left;
+	/*border-left: 1px solid #777;*/
+	
+}
+#contenedor aside .widget
+{	
+	margin-left: 4%;
+	margin-bottom: 50px;
+	display: block;
+	float: left;	
+}
+ .widget
+{	
+	margin-left: 3%;
+	margin-bottom: 50px;
+	display: block;
+	float: left;	
+}
+ .widget h3
+{	
+	
+	font-size: 1.4em;
+	color:#333;
+	font-weight: lighter;
+	margin-bottom: 10px;
+}
+#contenedor aside ul
+{
+	
+	
+}
+.widget ul li
+{
+	list-style-type: none;
+	font-size: 1em;
+	margin-bottom: 10px;	
+}
+.widget ul li a
+{
+	
+	color:#777777;
+	
+}
+.widget ul li a:hover
+{
+	color:#bf2222;
+	text-decoration: none;
+}
+
+
+div, section, footer
+{
+	border: 1px solid pink;
+}
+
+/*------------------FOOTER -------------------*/
+
+footer
+{
+	width:85%;
+}
+
+footer .widget
+{
+	width:25%;
+
+}
+footer #copyright
+{
+	width:100%;
+	clear:both;
+	font-size: 1em;
+	color:#777;
+	text-align: center;
+	padding:10px;
+}
+
+
+/*------------------SINGLE -------------------*/
+
+#contenedor #listaArticulos #NombreCategoria
+{
+	padding:5px;
+	color:#333;
+	font-weight: lighter;
+	border-bottom: 1px solid #333;
+	margin-bottom: 10px;
+	font-size: 2em;
+	margin-right: 40px;
+
+}
+
+.espacio
+{
+	padding:20px 0px;
+}
+
+	/*------------------SINGLE COMENTARIOS-------------------*/
+
+
+	#contenedor #listaArticulos section#comentarios
+	{
+		margin-bottom: 40px;
+		margin-right: 4%;
+	}
+	#comentarios h3
+	{
+		font-size:1.3em;
+		padding:5px;
+		color:#333;
+		font-weight: lighter;
+		
+	}
+	#contenedor #listaArticulos #cajaComentarios
+	{
+		height:70px;
+		background: #ccc;
+	}

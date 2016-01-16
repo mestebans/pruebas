@@ -1,0 +1,9 @@
+{
+    "name": "Modernizr",
+    "require": {
+        "components/normalize.css": "3.0.*",
+         "components/jquery": "2.1.*",
+         "twbs/bootstrap": "3.3.6"
+         
+    }
+}

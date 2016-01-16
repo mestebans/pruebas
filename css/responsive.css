@@ -1,0 +1,144 @@
+/*MEDIDAS PARA TABLES HORIZONTAL*/
+
+@media screen and (max-width: 1024px){
+			
+			header nav ul
+			{
+				
+			overflow: hidden;
+			overflow-x: hidden;
+			
+			}
+			header nav ul li
+		{
+			font-size: 10px;
+			display: block;
+		}
+			header nav ul li a
+		{
+			border:1px solid pink;
+			
+			
+			background: #bf2222;
+			padding: 10px;
+			font-size: 1em;
+			display: block;
+			/*background-color: steelblue;*/
+			color: green;
+		}
+	
+		
+		#contenedor #noslide
+		{
+			display:none;
+		}
+		.prueba:hover{
+			background: #410707;
+			font-size: 1.2em;
+			color: #ffffff;
+		}
+		.menu
+		{
+			margin-left: 0px;
+		}
+		
+			#contenedor section .pagination p a
+		{
+			color:white!important;
+			margin: 10px 20px;
+			background: #bf2222;
+			display:block;
+			padding:10px;
+
+			font-size: 0.7em;
+		}
+			#contenedor section .pagination p a:hover
+		{
+			background:#410707 !important;
+			box-shadow: 0px 0px 5px white;
+			font-size: 0.8em;
+			transition:0.3s all;
+		}
+		.widget ul li
+		{
+			border-bottom: 1px solid #333;
+			padding:5px 0px;
+		}
+		
+		
+}
+/*MEDIDAS PARA TABLES VERTICAL*/
+@media screen and (max-width: 768px){
+	header #logo
+		{
+			width: 100%!important;
+			background: #333;
+		}
+	header #logo h1
+		{
+			text-align: center !important;
+		}
+	header #logo span
+		{
+			text-align: center;
+			left:50px;
+		}
+	header nav
+		{
+			width: 100%!important;
+			float: left;
+			
+			margin-top: 5px;
+		
+		}
+	header nav ul 
+		{
+			
+			float: left!important;
+		}
+	#contenedor section#listaArticulos
+		{
+
+			clear: both;
+			
+			float: left;
+			width:100%!important;
+
+		}
+	#contenedor aside
+		{
+			width:100%!important;
+			clear: both;
+
+		}
+	.widget
+	{
+		width:100%!important;
+		
+		margin-bottom: 40px!important;
+	}	
+	}
+
+
+
+	/*MEDIDAS PARA SMARTPHONE*/
+@media screen and (max-width: 400px){
+
+
+		/*#contenedor
+		{
+			background: pink;
+		}*/
+	#contenedor #listaArticulos img.thumb
+	{	
+		width:100% !important;
+		float: left;
+		margin-bottom: 20px!important;
+		
+	}
+	footer .widget
+	{
+		width:100%;
+	}
+}
+ 
