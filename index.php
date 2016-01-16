@@ -148,16 +148,7 @@ $(function()
           <li><a href="">Eres un Articulo</a></li>
         </ul>
        </section>
-       <section class="widget">
-          <h3>Articulos</h3>
-        <ul>
-          <li><a href="">Eres un Articulo</a></li>
-          <li><a href="">Eres un Articulo</a></li>
-          <li><a href="">Eres un Articulo</a></li>
-          <li><a href="">Eres un Articulo</a></li>
-          <li><a href="">Eres un Articulo</a></li>
-        </ul>
-       </section>
+     
       
   </section>
   
