@@ -148,6 +148,7 @@ $(function()
           <li><a href="">Eres un Articulo</a></li>
         </ul>
        </section>
+       <section class="widget" style="background:green">
          <h3>Caxoperroxs</h3>
         <ul>
           <li><a href="">Eres un Articulo</a></li>
@@ -156,8 +157,28 @@ $(function()
           <li><a href="">Eres un Articulo</a></li>
           <li><a href="">Eres un Articulo</a></li>
         </ul>
-       </section><a href=""></a>
+       </section>
+       <section class="widget" style="background:yellow">
+         <h3>JAJAJAJAJA</h3>
+        <ul>
+          <li><a href="">Eres un Articulo</a></li>
+          <li><a href="">Eres un Articulo</a></li>
+          <li><a href="">Eres un Articulo</a></li>
+          <li><a href="">Eres un Articulo</a></li>
+          <li><a href="">Eres un Articulo</a></li>
+        </ul>
        
+       </section>
+       <section class="widget" style="background:blue">
+         <h3>KOKOKOO</h3>
+        <ul>
+          <li><a href="">Eres un Articulo</a></li>
+          <li><a href="">Eres un Articulo</a></li>
+          <li><a href="">Eres un Articulo</a></li>
+          <li><a href="">Eres un Articulo</a></li>
+          <li><a href="">Eres un Articulo</a></li>
+        </ul>
+       </section>
       
   </section>
   
