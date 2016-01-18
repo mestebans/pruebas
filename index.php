@@ -179,6 +179,16 @@ $(function()
           <li><a href="">Eres un Articulo</a></li>
         </ul>
        </section>
+        <section class="widget" style="background:blue">
+         <h3>JAUSUSUSUSUSU</h3>
+        <ul>
+          <li><a href="">Eres un Articulo</a></li>
+          <li><a href="">Eres un Articulo</a></li>
+          <li><a href="">Eres un Articulo</a></li>
+          <li><a href="">Eres un Articulo</a></li>
+          <li><a href="">Eres un Articulo</a></li>
+        </ul>
+       </section>
       
   </section>
   
