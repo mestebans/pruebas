@@ -182,7 +182,7 @@ $(function()
       
   </section>
   
-         <p id="copyright">MyBlog  &copy;   Manuel Esteban --  Todos los derechos Reservados</p>
+         <p id="copyright"></p>
        
 
 </footer>
